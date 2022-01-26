@@ -1,4 +1,4 @@
-# Geometria obliczeniowa
+# Otoczki, lokalizacja punktu, punkty dominujące
 
 ## Lokalizacja punktu wewnątrz wielokąta prostego
 
@@ -42,7 +42,7 @@ Co najmniej nlogn -> można sprowadzić do sortowania
 
 ## Punkty dominujące
 
-Punkt p 1 dominuje nad punktem p 2 względem współrzędnej x, gdy x(p1) > x(p2).
+Punkt p1 dominuje nad punktem p2 względem współrzędnej x, gdy x(p1) > x(p2).
 W pierwszej ćwiartce układu współrzędnych R2 punkt p jest dominujący w zbiorze 
 S, gdy żaden punkt z S nie dominuje nad nim względem obu współrzędnych.
 Inaczej: punkt p jest dominujący w zbiorze S, gdy można dosunąć do p nieograniczony
