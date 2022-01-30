@@ -1,4 +1,10 @@
-### Szukanie liczby punktów w prostokącie na płaszczyźnie
+## Liczby złożone
+
+Każdy punkt (x, y) jest zamieniany na ((x,y), (y, x)) i porównywany leksykograficznie.
+
+Można zdefiniować w dowolnym wymiarze i służą do rózróźnienia punktów współliniowych.
+
+## Szukanie liczby punktów w prostokącie na płaszczyźnie
 
 Zadanie - Znaleźć punktyu należące do prostokąta
 
@@ -24,7 +30,7 @@ priority search tree(PST) -- ???
 | Kaskadowanie D | O(nlog^{d-1}n) | O(nlog^{d-1}n) | O(k + log^{d-1} n |
 | PST 2D | O(nlogn) | O(n) | O(k + logn) |
 
-### Drzewo przedziałów (interval tree)
+## Drzewo przedziałów (interval tree)
 
 Drzewo przedziałów (interval tree) -- Jakieś drzewo przedziałowe ale biorące pod uwagę medianę a nie średnią
 
@@ -39,7 +45,7 @@ Znalezienie wszystkich poziomych odcinków z n-elementowego zbioru przecinanych 
 wymaga O(k + log^2 n) czasu
 
 
-### Drzewo odcinków (segment tree)
+## Drzewo odcinków (segment tree)
 
 W n-elementowym zbiorze rozłącznych odcinków chcemy znaleźć te z nich, które przecinają prostokąt
 
@@ -52,13 +58,13 @@ zapytania w czasie O(k + logn)
 
 Takie samo zadanie ale dla pionowego odcinka można zrobić w czasie O(k + log^2 n)
 
-### Sprawdzenie istnienia pary przecinających się odcinków w modelu PRAM
+## Sprawdzenie istnienia pary przecinających się odcinków w modelu PRAM
 
 Wykorzystując O(nlogn) procesorów można stworzyć drzewo odcinków w czasie O(logn)
 
 W czasie O(logn) można określić czy istnieją co najmniej dwa odcinki, które się przecinają.
 
-### Drzewo czwórkowe
+## Drzewo czwórkowe
 
 Normalne drzewo przedziałowe ale z dzieleniem na 4, bo płaszczyzna
 
@@ -81,7 +87,7 @@ najwyżej dwukrotnie. Odpowiadające drzewo czwórkowe jest **zróżnoważone**.
 Niech T będzie drzewem czwórkowym o m węzłach i głebokości d. Można je zrównoważyć by miało O(m) węzłów
 w czasie O((d+1)m)
 
-### Drzewo Binary Space Partition - BSP
+## Drzewo Binary Space Partition - BSP
 
 Trochę jak kd-drzewo ale dzieli się względem odcinków a nie prostych równoległych do osi.
 Jeżeli dzieli się przed ocinki ze zbioru to to się nazywa **autopodziałem**.

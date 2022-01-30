@@ -45,7 +45,7 @@ Załóżmy, że robot R ma stałą liczbę wierzchołków, a obszar D ma n wierz
 chołków.
 
 | Rozmiar R | R | D | Rozmiar sumy | Złożoność czasowa konstrukcji | Szukanie ścieżki |
-|-----------| --------- | --------- | --------| ---------- |
+|-----------| --------- | --------- | --------| ---------- | --- |
 | O(1) | wypukły | wypukły | O(n) | O(n) | O(nlogn) |
 | O(1) | wypukły | niewypukły | O(n) | O(nlogn) | O(nlogn) |
 | O(1) | niewypukły | niewypukły | O(n^2) | O(n^2 logn) | O(nlogn) |

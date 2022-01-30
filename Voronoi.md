@@ -41,7 +41,7 @@ W metrykach L_1 i L_inf granica może być łamaną lub połączonymi klinami
 | -------- | ---- | ---- |
 | dziel i zwyciężaj | O(nlogn) | --- |
 
-## Diagramy potęgowe
+## Diagramy potęgowe (Laguerre)
 Wzorek odległości od środka okręgu = x^2 + y^2 - r^2, czyli kwadrat długości stycznej
 
 Własności:
@@ -92,7 +92,7 @@ Podział wnętrza na obszary Voronoi wyznaczane przez krawędzie wielokąta, kt�
 miejscem geometrycznym środków okręgów stycznych do co najmniej 2 punktów na brzegu wielokąta
 
 Własności:
-- Krawędzie szkieletu prostego są odcinki
+- Krawędzie szkieletu prostego są odcinkami
 - Szkielet prosty dzieli wielokąt na wielokąty monotoniczne
 - Szkielet prosty ma 2n-3 krawędzi
 
